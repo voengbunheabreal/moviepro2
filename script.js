@@ -51,16 +51,16 @@ movies.forEach(movie => {
 });
 //// Movie Data Array2
 const movies1 = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
 ];
 
 // Target the container
@@ -97,16 +97,16 @@ movies.forEach(movie => {
 
 //// Movie Data Array3
 const movies2 = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
 ];
 
 // Target the container
@@ -144,9 +144,9 @@ movies.forEach(movie => {
 
 // Slideshow Data Array
 const slides = [
-    { image: "/img-slide/1.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" },
-    { image: "/img-slide/2.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" },
-    { image: "/img-slide/3.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" }
+    { image: "img-slide/1.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" },
+    { image: "img-slide/2.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" },
+    { image: "img-slide/3.jpg", title: "Avengers", description: "Avengers Infinity War Final Battle Climax Scene Thanos Vs Avengers Wakanda Fight Scenes" }
 ];
 
 // Target the slideshow container
