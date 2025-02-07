@@ -37,8 +37,8 @@ movies.forEach(movie => {
 
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <a href="${movieLink}" target="_blank">
-                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
+            <a href="${movieLink}" >
+                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80 ">
             </a>
             <div class="p-4">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
@@ -82,7 +82,7 @@ movies1.forEach(movie => {
 
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <a href="${movieLink}" target="_blank">
+            <a href="${movieLink}" >
                 <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
             <div class="p-4">
@@ -121,7 +121,7 @@ movies2.forEach(movie => {
 
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-            <a href="${movieLink}" target="_blank">
+            <a href="${movieLink}" >
                 <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
             <div class="p-4">
