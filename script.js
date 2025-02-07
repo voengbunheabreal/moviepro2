@@ -6,16 +6,16 @@ const mobileMenuButton = document.getElementById('mobile-menu-button');
         });
 // Movie Data Array1
 const movies = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Chasing the Dragon (2017).jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/crouching tiger, hidden dragon.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/cuento de cazador sombras.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Indonesia/Alas pati.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Indonesia/pemandi jenazah.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Indonesia/perjanjian gaib.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Indonesia/SIJJIN.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/bikeman.jpg", rating: 4, link: "https://youtu.be/2FSq5tKxgT4" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/Tony Jaa.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/หลวงพี่แจ๊ส 4G หนังเต็มเรื่อง.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
 ];
 
 // Target the container
@@ -38,7 +38,7 @@ movies.forEach(movie => {
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <a href="${movieLink}" target="_blank">
-                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-auto">
+                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
             <div class="p-4">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
@@ -51,16 +51,16 @@ movies.forEach(movie => {
 });
 //// Movie Data Array2
 const movies1 = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Chasing the Dragon (2017).jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/crouching tiger, hidden dragon.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/cuento de cazador sombras.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/double world.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Flying Swords of Dragon Gate.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/God of Gamblers.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Ip man 1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Ip man 2.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Ip man 3.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Ip man 4.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
 ];
 
 // Target the container
@@ -76,14 +76,14 @@ const generateStars1 = (rating) => {
 };
 
 // Loop through movies and create movie cards dynamically
-movies.forEach(movie => {
+movies1.forEach(movie => {
     // Use provided video link if available; otherwise, generate a default link
     const movieLink = movie.link ? movie.link : `/watch?title=${encodeURIComponent(movie.title.toLowerCase().replace(/\s+/g, "-"))}`;
 
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <a href="${movieLink}" target="_blank">
-                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-auto">
+                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
             <div class="p-4">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
@@ -97,16 +97,9 @@ movies.forEach(movie => {
 
 //// Movie Data Array3
 const movies2 = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "img-conent/the-avengers-android-71dsuk38vdgeckj1.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/bikeman.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/Tony Jaa.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Thai/หลวงพี่แจ๊ส 4G หนังเต็มเรื่อง.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
 ];
 
 // Target the container
@@ -122,14 +115,14 @@ const generateStars2 = (rating) => {
 };
 
 // Loop through movies and create movie cards dynamically
-movies.forEach(movie => {
+movies2.forEach(movie => {
     // Use provided video link if available; otherwise, generate a default link
     const movieLink = movie.link ? movie.link : `/watch?title=${encodeURIComponent(movie.title.toLowerCase().replace(/\s+/g, "-"))}`;
 
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <a href="${movieLink}" target="_blank">
-                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-auto">
+                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
             <div class="p-4">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
