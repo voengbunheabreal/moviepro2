@@ -6,7 +6,7 @@ const mobileMenuButton = document.getElementById('mobile-menu-button');
         });
 // Movie Data Array1
 const movies = [
-    { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/Chasing the Dragon (2017).jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
+    { title: "Movie Title 1", genre: "Action, Adventure", image: "./img-conent/Chinese/Chasing the Dragon (2017).jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
     { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/crouching tiger, hidden dragon.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
     { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Chinese/cuento de cazador sombras.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
     { title: "Movie Title 1", genre: "Action, Adventure", image: "/img-conent/Indonesia/Alas pati.jpg", rating: 4, link: "https://www.youtube.com/watch?v=ahXQSE0hiBM" },
