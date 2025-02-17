@@ -38,12 +38,12 @@ movies.forEach(movie => {
     const movieCard = `
         <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
             <a href="${movieLink}" >
-                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80 ">
+                <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
-            <div class="p-4">
+            <div class="p-1">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
-                <p class="mt-2 text-gray-400">${movie.genre}</p>
-                <p class="mt-2 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
+                <p class="mt-1 text-gray-400">${movie.genre}</p>
+                <p class="mt-1 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
             </div>
         </div>
     `;
@@ -85,10 +85,10 @@ movies1.forEach(movie => {
             <a href="${movieLink}" >
                 <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
-            <div class="p-4">
+            <div class="p-1">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
-                <p class="mt-2 text-gray-400">${movie.genre}</p>
-                <p class="mt-2 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
+                <p class="mt-1 text-gray-400">${movie.genre}</p>
+                <p class="mt-1 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
             </div>
         </div>
     `;
@@ -124,10 +124,10 @@ movies2.forEach(movie => {
             <a href="${movieLink}" >
                 <img src="${movie.image}" alt="${movie.title}" class="w-full object-cover h-80">
             </a>
-            <div class="p-4">
+            <div class="p-1">
                 <h3 class="text-xl font-bold">${movie.title}</h3>
-                <p class="mt-2 text-gray-400">${movie.genre}</p>
-                <p class="mt-2 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
+                <p class="mt-1 text-gray-400">${movie.genre}</p>
+                <p class="mt-1 text-yellow-400 text-lg">${generateStars(movie.rating)}</p>
             </div>
         </div>
     `;
